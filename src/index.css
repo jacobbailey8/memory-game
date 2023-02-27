@@ -1,8 +1,38 @@
+@media (max-width: 420px) {
+  .card {
+    height: 150px !important;
+    width: 150px !important;
+    border-radius: 15px !important;
+  }
+}
+
+@media (max-width: 576px) {
+
+
+  .cardRow {
+    width: 100vw;
+  }
+}
+
 .header {
   width: 100vw;
   background-color: aliceblue;
 }
 
 .cardGrid {
-  height: 500px;
+  height: 700px;
+  gap: 10px;
+}
+
+.card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+}
+
+.cardRow {
+  display: flex;
+  justify-content: space-around;
 }
